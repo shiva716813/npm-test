@@ -68,3 +68,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### `npm install sass --save-dev` `remove node-module va package-lock-json` `npm install node-sass@8 --save-dev` 
+https://bobbyhadz.com/blog/node-sass-command-failed-when-running-npm-install

@@ -30,6 +30,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "sass": "node-sass src/lib/components/styles/main.scss src/App.css -w",
     "build": "del dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -55,6 +56,8 @@
   "devDependencies": {
     "@babel/cli": "^7.21.5",
     "@babel/core": "^7.21.8",
-    "@babel/preset-env": "^7.21.5"
+    "@babel/preset-env": "^7.21.5",
+    "node-sass": "^8.0.0",
+    "sass": "^1.62.1"
   }
 }
